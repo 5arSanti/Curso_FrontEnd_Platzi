@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    background: #424242;
+    width: 30%;
+    height: 600px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+}
+#portada{
+    position: absolute;
+    width: 100%;
+}
+#iprofile {
+    display: flex;
+    border: 5px solid #424242;
+    top: 33%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#texto{
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
