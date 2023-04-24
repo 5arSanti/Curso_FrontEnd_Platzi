@@ -37,4 +37,5 @@ section{
     z-index: 1;
     color: white;
     text-align: center;
+    align-self: baseline;
 }
