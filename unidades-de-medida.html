@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            html{
+                font-size: 62.5%;
+            }
+            body{
+                margin: 0;
+            }
+            div{
+                width: 100px;
+                height: 100px;
+                background: pink;
+            }
+            p{
+                font-size: 2rem;
+            }
+            p:nth-child(3){
+                margin: 2rem;
+            }
+            .container{
+                width: 100vh;
+                height: 100vh;
+                background: plum;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>Platzi</div>
+        <p>Master</p>
+        <p>Hay un dilema donde algunas personas dicen que los px no deberían ser medidas absolutas porque dependen del DPI de la pantalla, aclaremos esto 👇:
+            .
+            Cuando hablamos de “medidas fijas” o “estáticas” nos referimos a que esta medida siempre va a medir lo mismo es una misma pantalla (sin importar su DPI). No en todas las pantallas 1px mide lo mismo, de hecho incluso cuando hacemos zoom el tamaño de ese píxel se modifica (mide más de 1px, aunque le hayamos puesto 1px).
+            .
+            ☝ Entonces aclarando esta duda, hablamos de medidas estáticas cuando es una medida que, en una misma pantalla, siempre medirá lo mismo, sin depender de nadie.
+            .
+            Las medidas relativas dependen de algo para poder calcular su medida, por ejemplo, los porcentajes dependen del elemento padre, los em rem dependen del font-size, los vw y vh dependen del tamaño del viewport.
+            .
+            Básicamente esa es la diferencia entre medidas relativas y absolutas, de nuevo, ninguna es mejor que otra y todas tienen sus casos de uso 👀</p>
+        <div class="container"></div>
+        
+    </body>
+</html>
